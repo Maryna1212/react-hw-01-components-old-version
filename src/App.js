@@ -1,5 +1,7 @@
 import Profile from './components/profile/Profile';
 import user from './components/profile/user.json';
+import Statistics from './components/statistics/Statistics';
+import statisticalData from './components/statistics/statistical-data.json';
 
 export default function App() {
   return (
@@ -11,6 +13,7 @@ export default function App() {
         location={user.location}
         stats={user.stats}
       />
+      <Statistics title="Upload stats" stats={statisticalData} />
     </div>
   );
 }
