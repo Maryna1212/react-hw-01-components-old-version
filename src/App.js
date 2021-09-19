@@ -1,3 +1,5 @@
+import './index.css';
+
 import Profile from './components/profile/Profile';
 import user from './components/profile/user.json';
 import Statistics from './components/statistics/Statistics';

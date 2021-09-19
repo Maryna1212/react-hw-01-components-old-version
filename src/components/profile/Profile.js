@@ -1,4 +1,6 @@
 import PropTypes from 'prop-types';
+import styles from './Profile.css';
+import defaultAvatar from './default-avatar.jpg';
 
 export default function Profile({ avatar, name, tag, location, stats }) {
   return (
