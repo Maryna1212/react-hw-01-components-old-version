@@ -8,6 +8,7 @@
 }
 
 .item {
+  background-color: rgb(205, 245, 181);
   margin-bottom: 10px;
   display: flex;
   align-items: center;

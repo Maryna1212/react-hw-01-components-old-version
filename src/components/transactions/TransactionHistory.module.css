@@ -1,0 +1,30 @@
+.transactionContainer {
+  background-color: #ddc7e4;
+  padding: 30px 0;
+}
+
+.transactionHistory {
+  border-collapse: collapse;
+  width: 70vw;
+  text-align: center;
+  margin: 0 auto;
+}
+
+thead {
+  padding: 20px;
+  color: #ffffff;
+  background-color: #86c9f0;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: #c9e1e7;
+}
+
+th,
+td {
+  padding: 12px 0;
+  border-left: 1px solid #dfdcdc;
+  border-right: 1px solid #dfdcdc;
+}
